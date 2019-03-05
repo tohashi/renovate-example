@@ -1,0 +1,14 @@
+{
+  "name": "renovate-example",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tohashi/renovate-example.git"
+  },
+  "author": "tohashi",
+  "license": "ISC",
+  "dependencies": {
+    "react": "15.5.0",
+    "react-dom": "15.5.0"
+  }
+}
