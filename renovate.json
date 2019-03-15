@@ -17,11 +17,6 @@
     "group:recommended",
     "helpers:disableTypesNodeMajor"
   ],
-  "separateMultipleMajor": true,
-  "packageRules": [
-    {
-      "packageNames": ["react", "react-dom"],
-      "allowedVersions": "< 16.0.0"
-    }
-  ]
+  "separateMultipleMajor": true
 }
+
