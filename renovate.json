@@ -1,22 +1,4 @@
 {
-  "extends": [
-    ":separateMajorReleases",
-    ":combinePatchMinorReleases",
-    ":ignoreUnstable",
-    ":prImmediately",
-    ":renovatePrefix",
-    ":semanticPrefixFixDepsChoreOthers",
-    ":updateNotScheduled",
-    ":automergeDisabled",
-    ":ignoreModulesAndTests",
-    ":maintainLockFilesDisabled",
-    ":autodetectPinVersions",
-    ":prHourlyLimit2",
-    ":prConcurrentLimit20",
-    "group:monorepos",
-    "group:recommended",
-    "helpers:disableTypesNodeMajor"
-  ],
+  "extends": ["config:base", ":pinAllExceptPeerDependencies"],
   "separateMultipleMajor": true
 }
-
