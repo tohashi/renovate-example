@@ -8,8 +8,8 @@
   "author": "tohashi",
   "license": "ISC",
   "dependencies": {
-    "react": "15.5.0",
+    "react": "15.7.0",
     "react-datepicker": "0.60.2",
-    "react-dom": "15.5.0"
+    "react-dom": "15.7.0"
   }
 }
